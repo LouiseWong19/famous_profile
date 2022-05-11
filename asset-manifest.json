@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/famous_profile/static/css/main.37a9892f.css",
-    "main.js": "/famous_profile/static/js/main.49be3f3e.js",
+    "main.js": "/famous_profile/static/js/main.cfa55f4a.js",
     "static/js/787.fe1fa49f.chunk.js": "/famous_profile/static/js/787.fe1fa49f.chunk.js",
     "static/media/bruno-mars.jpg": "/famous_profile/static/media/bruno-mars.65a0068493351015331e.jpg",
     "index.html": "/famous_profile/index.html",
     "main.37a9892f.css.map": "/famous_profile/static/css/main.37a9892f.css.map",
-    "main.49be3f3e.js.map": "/famous_profile/static/js/main.49be3f3e.js.map",
+    "main.cfa55f4a.js.map": "/famous_profile/static/js/main.cfa55f4a.js.map",
     "787.fe1fa49f.chunk.js.map": "/famous_profile/static/js/787.fe1fa49f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37a9892f.css",
-    "static/js/main.49be3f3e.js"
+    "static/js/main.cfa55f4a.js"
   ]
 }
