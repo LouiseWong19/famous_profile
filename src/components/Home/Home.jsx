@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "react-scroll/modules/components/Link";
+import Button from "../Button/Button";
 import "./Home.scss";
 
 const Home = () => {
@@ -10,6 +12,17 @@ const Home = () => {
           Bruno Mars is an American singer, songwriter, record producer,
           musician and dancer
         </p>
+        <Link
+            activeClass="active"
+            to="albums"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={600}
+          >
+            <Button buttonText={"Explore"}/>
+          </Link>
+        
       </div>
     </div>
   );

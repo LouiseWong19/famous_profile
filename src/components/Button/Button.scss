@@ -1,1 +1,14 @@
 @use "../../assets/sass/_variables.scss" as *;
+
+.button {
+  min-width: 5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.625rem;
+  border: none;
+  color: $color-black;
+  font-weight: 600;
+}
+
+.primary{
+  background-color: $color-white;
+}

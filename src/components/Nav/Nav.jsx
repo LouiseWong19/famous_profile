@@ -14,7 +14,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={600}
           >
             Home
           </Link>
@@ -26,7 +26,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={600}
           >
             Albums
           </Link>
@@ -38,7 +38,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={600}
           >
             About
           </Link>
@@ -50,7 +50,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={600}
           >
             News
           </Link>
