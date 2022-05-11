@@ -1,0 +1,22 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  background-color: goldenrod;
+  top: 0;
+  &__logo{
+    margin-left: 0.75rem;
+  }
+  &__header{
+    display: flex;
+    align-items: center;
+    li{
+      list-style-type: none;
+      margin-right: 0.75rem;
+    }
+  }
+}
+
