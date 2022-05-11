@@ -13,16 +13,16 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  &__intro{
+  &__intro {
     padding: 0.625rem;
   }
   h1,
   p {
     color: $color-white;
   }
-  .button{
+  .button {
     margin-top: 1.25rem;
-    &:hover{
+    &:hover {
       color: $color-white;
       background-color: $color-black;
       transition: 0.3s;

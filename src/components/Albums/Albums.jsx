@@ -10,7 +10,13 @@ const Albums = (props) => {
       <h1>Albums</h1>
       <div className="albums__items">
         {albums.map((album) => {
-          return <Album key={album.idAlbum} picture={album.strAlbumThumb} title={album.strAlbum}/>;
+          return (
+            <Album
+              key={album.idAlbum}
+              picture={album.strAlbumThumb}
+              title={album.strAlbum}
+            />
+          );
         })}
       </div>
     </div>

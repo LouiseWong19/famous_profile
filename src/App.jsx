@@ -17,7 +17,6 @@ const App = () => {
       <footer>
         <Contacts />
       </footer>
-      
     </div>
   );
 };

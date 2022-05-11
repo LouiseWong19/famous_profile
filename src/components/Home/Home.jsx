@@ -13,16 +13,15 @@ const Home = () => {
           musician and dancer
         </p>
         <Link
-            activeClass="active"
-            to="albums"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={600}
-          >
-            <Button buttonText={"Explore"}/>
-          </Link>
-        
+          activeClass="active"
+          to="albums"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={600}
+        >
+          <Button buttonText={"Explore"} />
+        </Link>
       </div>
     </div>
   );

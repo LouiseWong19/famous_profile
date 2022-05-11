@@ -30,7 +30,7 @@ const Nav = () => {
           >
             Albums
           </Link>
-        </li>        
+        </li>
         <li className="nav__header--items">
           <Link
             activeClass="active"
@@ -55,7 +55,6 @@ const Nav = () => {
             News
           </Link>
         </li>
-
       </ul>
     </nav>
   );

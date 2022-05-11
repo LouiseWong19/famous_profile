@@ -1,9 +1,9 @@
 @use "../../assets/sass/_variables.scss" as *;
 
-.contacts{
+.contacts {
   padding: 0.75rem;
   color: $color-white;
-  &__icons{
+  &__icons {
     display: flex;
     justify-content: center;
     gap: 10px;
