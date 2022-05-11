@@ -24,6 +24,7 @@ const Contacts = () => {
         <SpotifyIcon />
       </a>
       </div>
+      <p>© Bruno Mars 2022</p>
      
       
     </div>
