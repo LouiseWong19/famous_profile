@@ -7,17 +7,15 @@
   position: fixed;
   background-color: goldenrod;
   top: 0;
-  &__logo{
+  &__logo {
     margin-left: 0.75rem;
   }
-  &__header{
+  &__header {
     display: flex;
     align-items: center;
-    li{
-      color: $color-black;
+    li {
       list-style-type: none;
       margin-right: 0.75rem;
     }
   }
 }
-

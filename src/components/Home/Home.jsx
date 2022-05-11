@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./Home.scss";
 
 const Home = () => {
@@ -6,10 +6,13 @@ const Home = () => {
     <div className="home" id="home">
       <div>
         <h1>Bruno Mars</h1>
-        <p>Bruno Mars is an American singer, songwriter, record producer, musician and dancer</p>
+        <p>
+          Bruno Mars is an American singer, songwriter, record producer,
+          musician and dancer
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
