@@ -8,14 +8,22 @@
   background-color: goldenrod;
   top: 0;
   &__logo {
-    margin-left: 0.75rem;
+    margin-left: 1.5rem;
   }
   &__header {
     display: flex;
     align-items: center;
-    li {
+    &--items {
       list-style-type: none;
-      margin-right: 0.75rem;
+      margin-right: 1rem;
+
+      &:hover{
+        color: black;
+        margin-top: 0.625rem;
+        text-decoration: underline;
+        text-underline-offset: 0.25rem;
+        transition: 0.3s;
+      }
     }
   }
 }

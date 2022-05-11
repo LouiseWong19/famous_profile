@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="nav">
       <h2 className="nav__logo">BM</h2>
       <ul className="nav__header">
-        <li>
+        <li className="nav__header--items">
           <Link
             activeClass="active"
             to="home"
@@ -19,7 +19,7 @@ const Nav = () => {
             Home
           </Link>
         </li>
-        <li>
+        <li className="nav__header--items">
           <Link
             activeClass="active"
             to="albums"
@@ -31,7 +31,7 @@ const Nav = () => {
             Albums
           </Link>
         </li>        
-        <li>
+        <li className="nav__header--items">
           <Link
             activeClass="active"
             to="about"
@@ -43,7 +43,7 @@ const Nav = () => {
             About
           </Link>
         </li>
-        <li>
+        <li className="nav__header--items">
           <Link
             activeClass="active"
             to="contact"
