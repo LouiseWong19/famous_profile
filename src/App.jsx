@@ -4,6 +4,7 @@ import Contacts from "./components/Contacts/Contacts";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
 import albums from "./data/albums";
+import About from "./components/About/About";
 
 const App = () => {
   const filteredAlbums = albums.filter((album) => album.strAlbumThumb);
@@ -12,7 +13,11 @@ const App = () => {
       <Nav />
       <Home />
       <Albums albums={filteredAlbums} />
-      <Contacts />
+      <About />
+      <footer>
+        <Contacts />
+      </footer>
+      
     </div>
   );
 };

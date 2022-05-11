@@ -30,6 +30,18 @@ const Nav = () => {
           >
             Albums
           </Link>
+        </li>        
+        <li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li>
           <Link
@@ -40,9 +52,10 @@ const Nav = () => {
             offset={-100}
             duration={500}
           >
-            Contacts
+            News
           </Link>
         </li>
+
       </ul>
     </nav>
   );

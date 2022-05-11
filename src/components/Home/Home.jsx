@@ -4,7 +4,7 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div className="home" id="home">
-      <div>
+      <div className="home__intro">
         <h1>Bruno Mars</h1>
         <p>
           Bruno Mars is an American singer, songwriter, record producer,

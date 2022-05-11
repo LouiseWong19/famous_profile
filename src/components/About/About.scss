@@ -1,11 +1,7 @@
 @use "../../assets/sass/_variables.scss" as *;
 
-.contacts{
+.about{
   padding: 0.75rem;
+  margin: 0 1.25rem;
   color: $color-white;
-  &__icons{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
 }
