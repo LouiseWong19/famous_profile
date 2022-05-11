@@ -5,7 +5,7 @@ import "./Nav.scss";
 const Nav = () => {
   return (
     <nav className="nav">
-      <h2 className="nav__logo">NC</h2>
+      <h2 className="nav__logo">BM</h2>
       <ul className="nav__header">
         <li>
           <Link
@@ -22,13 +22,13 @@ const Nav = () => {
         <li>
           <Link
             activeClass="active"
-            to="films"
+            to="albums"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            Films
+            Albums
           </Link>
         </li>
         <li>

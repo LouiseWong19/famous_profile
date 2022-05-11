@@ -1,0 +1,12 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+.home{
+  background-image: linear-gradient(rgba(49, 49, 49, 0.5), rgba(49, 49, 49, 0.5)),url("../../assets/images/bruno-mars.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  h1,p{
+    color: $color-white;
+  }
+}

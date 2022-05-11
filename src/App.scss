@@ -1,9 +1,13 @@
+@use "./assets/sass/variables" as *;
+@use "./assets/sass/typography" as *;
+
 .App {
   text-align: center;
+  background-color: $color-black;
 }
 
 .App > div {
   width: 100vw;
-  min-height: 100vh;
-  margin-top: 100px;
+  min-height: 50vh;
+  margin-top: 4.5rem;
 }
