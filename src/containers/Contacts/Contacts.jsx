@@ -4,8 +4,10 @@ import FacebookIcon from "../../components/ContactsIcon/FacebookIcon";
 import InstagramIcon from "../../components/ContactsIcon/InstagramIcon";
 import TwitterIcon from "../../components/ContactsIcon/TwitterIcon";
 import SpotifyIcon from "../../components/ContactsIcon/SpotifyIcon";
+import SubscriptionForm from "../../components/SubscriptionForm/SubscriptionForm";
 
 const Contacts = () => {
+  
   return (
     <div className="contacts" id="contact">
       <h1>Latest News</h1>
@@ -26,6 +28,10 @@ const Contacts = () => {
         >
           <SpotifyIcon />
         </a>
+      </div>
+      <div className="contacts__form">
+        <p>Or subscribe to the mailing list</p>
+        <SubscriptionForm />
       </div>
       <hr></hr>
       <p>© Bruno Mars 2022</p>
