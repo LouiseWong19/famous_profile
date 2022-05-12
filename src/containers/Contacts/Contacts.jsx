@@ -7,7 +7,6 @@ import SpotifyIcon from "../../components/ContactsIcon/SpotifyIcon";
 import SubscriptionForm from "../../components/SubscriptionForm/SubscriptionForm";
 
 const Contacts = () => {
-  
   return (
     <div className="contacts" id="contact">
       <h1>Latest News</h1>
