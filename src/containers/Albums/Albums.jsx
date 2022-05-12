@@ -1,5 +1,5 @@
 import React from "react";
-import Album from "../Album/Album";
+import Album from "../../components/Album/Album";
 import "./Albums.scss";
 
 const Albums = (props) => {

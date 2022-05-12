@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "react-scroll/modules/components/Link";
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 import "./Home.scss";
 
 const Home = () => {

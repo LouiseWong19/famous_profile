@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contacts.scss";
-import FacebookIcon from "../ContactsIcon/FacebookIcon";
-import InstagramIcon from "../ContactsIcon/InstagramIcon";
-import TwitterIcon from "../ContactsIcon/TwitterIcon";
-import SpotifyIcon from "../ContactsIcon/SpotifyIcon";
+import FacebookIcon from "../../components/ContactsIcon/FacebookIcon";
+import InstagramIcon from "../../components/ContactsIcon/InstagramIcon";
+import TwitterIcon from "../../components/ContactsIcon/TwitterIcon";
+import SpotifyIcon from "../../components/ContactsIcon/SpotifyIcon";
 
 const Contacts = () => {
   return (
